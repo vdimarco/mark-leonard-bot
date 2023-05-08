@@ -11,7 +11,7 @@ export default function Home() {
 
       </Head>
 
-      <main style="margin-bottom: -250px;">
+      <main>
         <Header title="Welcome!" />
          
         <iframe
