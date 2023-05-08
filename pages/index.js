@@ -24,7 +24,7 @@ export default function Home() {
 
       </main>
 
-      <Footer style="background: white;"/>
+      <Footer />
     </div>
   )
 }
