@@ -8,15 +8,10 @@ export default function Home() {
       <Head>
         <title>Kram Bot!</title>
         <link rel="icon" href="/favicon.ico" />
-     <style>
-        .main{margin-bottom: -250px;}
-        .footer{background: white;}
-        .Footer{background: white;}
-     </style>
 
       </Head>
 
-      <main>
+      <main style="margin-bottom: -250px;">
         <Header title="Welcome!" />
          
         <iframe
@@ -29,7 +24,7 @@ export default function Home() {
 
       </main>
 
-      <Footer />
+      <Footer style="background: white;"/>
     </div>
   )
 }
