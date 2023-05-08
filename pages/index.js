@@ -12,12 +12,17 @@ export default function Home() {
 
       <main>
         <Header title="Welcome!" />
-        <iframe
-src="https://www.chatbase.co/chatbot-iframe/gMSeV27eEggGqOgifdEwY"
-width="100%"
-height="700"
-frameborder="0"
-></iframe>
+        <script>
+  window.chatbaseConfig = {
+    chatbotId: "gMSeV27eEggGqOgifdEwY",
+  }
+</script>
+<script
+  src="https://www.chatbase.co/embed.min.js"
+  id="gMSeV27eEggGqOgifdEwY"
+  defer>
+</script>
+
 
       </main>
 
